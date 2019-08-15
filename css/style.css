@@ -1,0 +1,574 @@
+
+nav { height: 100px;
+    font-family: "Montserrat";
+    font-size: 1em;
+    font-weight: 900;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    }
+
+ul {
+    list-style-type: none;
+    margin-top:0;
+    padding: 0;
+    text-decoration: none;
+    padding-right: 20px;
+  }
+  
+  li {
+    float: right;
+    margin-left: 80px;
+    line-height: 100px;
+  }
+
+a {
+    text-decoration: none;
+    color: #FFAFE3;
+}
+
+
+.clear {
+clear: both;
+}
+
+.load{
+animation: slide 2s;
+
+}
+.slide{
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+width: 100%;
+height: 600px;
+animation: slide 20s infinite;
+}
+
+.content{
+overflow-x: hidden;
+color: #fff;
+width: 100%;
+height:600px;
+background:linear-gradient(to bottom right, rgb(255,175,227,0.7),rgb(0,118,255,0.7));
+}
+
+.foto-header img{
+width: 134px;
+height: 134px;
+border-radius: 50%;
+position: absolute;
+top: 25%;
+left: 10%;
+}
+
+
+.tekst{
+width: 700px;
+height: auto;
+background:none;
+margin: auto;
+}
+
+.tekst h2{
+font-size: 3em;
+margin-bottom: 18%;
+font-family: 'Playfair Display', serif;
+padding-top:150px;
+}
+
+.tekst p{
+font-family: 'Montserrat';
+font-size: 1.2em;
+
+}
+@keyframes slide {
+0%{  
+background-image: url('../img/header-img1@2x.jpg');
+}
+
+20%{
+    background-image: url('../img/header-img1@2x.jpg');
+}
+
+
+20.01%{  
+    background-image: url('../img/header-img5@2x.jpg');
+    }
+    
+40%{
+        background-image: url('../img/header-img5@2x.jpg');
+    }
+
+40.01%{  
+        background-image: url('../img/header-img3@2x.jpg');
+        }
+        
+60%{
+        background-image: url('../img/header-img3@2x.jpg');
+        }
+60.01%{  
+        background-image: url('../img/header-img1@2x.jpg');
+            }
+            
+80%{
+        background-image: url('../img/header-img1@2x.jpg');
+            }
+80.01%{  
+        background-image: url('../img/header-img5@2x.jpg');
+            }
+                    
+100%{
+        background-image: url('../img/header-img5@2x.jpg');
+}
+
+
+}
+.video-center{
+    width: 900px;
+    margin: auto;
+}
+.video-container{
+width: 900px;
+height: auto;
+margin-top: -100px;
+position: relative;
+}
+
+.video-container:hover #speelAf{
+display: block;
+
+}
+.video-container:hover #spoelTerug{
+    display: block;
+ }
+
+#videoPlayer{
+    width: 900px;
+}
+
+ #spoelTerug{
+display: none;
+top: 50%;
+left:40%;
+width: 50px;
+position: absolute;
+height: 50px;
+background: #0076FF;
+color: white;
+border-radius: 50%;
+border: none;   
+    }
+
+#speelAf{
+display: none;
+position: absolute;
+top: 50%;
+left:50%;
+margin-left: 20px;
+width: 50px;
+height: 50px;
+background: #0076FF;
+color: white;
+border-radius: 50%;
+border: none;
+    }
+
+.overlay-desc {
+display: none;
+background: rgba(0,0,0,0);
+position: absolute;
+top:0; right: 0; bottom: 0; left: 0;
+padding: 15px;
+font-family: 'Montserrat';
+color: white;
+font-weight: 900;
+}
+.video-container:hover .overlay-desc{
+display: block;
+}
+
+ .thumbnails h3{
+font-family: 'Montserrat';
+font-size: 1.125em;
+text-align: center;
+color: #FFAFE3;
+font-weight: 900;
+margin-top: 50px;
+margin-bottom: 50px;
+}
+
+.container{
+position: relative;
+width: 352px;
+height: 352px;
+display: inline-block; 
+margin-left: 15px;
+margin-bottom: 15px;
+}
+
+.image{
+display: block;
+width: 352px;
+height: 352px;
+}
+
+.overlay{
+position: absolute;
+transition: all .5s ease;
+opacity: 0;
+background-color: #0076FF;
+}
+
+.container:hover .overlay{
+opacity: 0.85;
+}
+
+.text{
+color: white;
+font-family: 'Playfair Display';
+position: absolute;
+top:15%;
+font-size: 2em; 
+left: 25%;
+}
+
+.overlayFade{
+height: 100%;
+width: 100%;
+top: 0;
+left: 0;
+background-color: #0076FF
+}
+
+.container:hover .overlayFade{
+    width:100%;
+}
+
+.thumbnails{
+padding-top: 100px;
+margin: auto;
+width: 1110px;
+height: auto;
+background: none;
+
+}
+
+.hashtag{
+width: auto;
+padding-left: 20px;
+padding-right: 20px; 
+height: 41px;
+background:#FFAFE3;
+opacity: 1;
+border-radius: 15px;
+float: left;
+margin-top: 300px;
+margin-left: 10px;
+}
+
+.hashtag p{
+font-family: 'Montserrat';
+font-size: 1.375em;
+color: white;
+text-align: center;
+line-height: 35px;
+}
+
+.knop{
+margin: auto;
+background:#0076FF;
+height: 60px;
+width: 325px;
+margin-top: 80px;
+}
+
+.knop p{
+text-align: center;
+font-family: 'montserrat';
+font-size: 1.375em;
+line-height: 60px;
+color: #FFAFE3;
+font-weight: 900;
+}
+
+.portfolio h3{
+font-family: 'Montserrat';
+font-size: 1.125em;
+text-align: center;
+}
+
+footer{  
+width:100%;
+margin-top: 200px;
+padding-bottom: 100px;
+height: auto;
+background:linear-gradient(to bottom right, rgb(0,118,255),rgb(225,174,227));
+}
+
+footer h3{
+font-family: 'Playfair Display';
+font-size: 3.75em;
+text-align: center;
+color: white;
+padding-top: 130px;
+}
+
+.center{
+text-align: center;
+margin-top: 40px;
+}
+
+#contact{
+background: none;
+text-align: center;
+border: none;
+text-decoration: none;
+display: inline-block;
+margin: 4px 2px;
+cursor: pointer;
+color: #FFAFE3;
+font-family: 'Montserrat';
+font-weight: 700;
+font-size: 1.4em;
+}  
+
+#content{
+color: black;
+text-align: center;
+display: none;
+}
+
+#back{
+display: none;
+background: none;
+text-align: center;
+border: none;
+text-decoration: none;
+margin: 4px 2px;
+cursor: pointer;
+color: #FFAFE3;
+font-family: 'Montserrat';
+font-weight: 700;
+font-size: 1.4em;
+}
+
+form{
+margin-top: 50px;
+color: white;
+font-weight: 800;
+width: 80vw;
+height: auto;
+padding: 10px;
+margin: 0 auto;
+font-family: 'Montserrat';
+font-size: 1.125em;
+}
+
+#submit{
+background: #FFAFE3;
+padding-left: 6px; 
+text-align: center;
+border: none;
+border-radius: 10px;
+cursor: pointer;
+color:white;
+font-family: 'Montserrat';
+font-weight: 500;
+font-size: 1em;    
+}
+
+
+/* css voor portfolio pagina */
+
+.ui-widget.ui-widget-content{
+background: #FFAFE3;
+}
+
+.portfolio header p{
+padding-top: 200px;
+text-align: center;
+line-height: 30px;
+font-family: 'Montserrat';
+font-size: 1.3em;
+}
+
+.portfolio{
+text-align: center;
+}
+.portfolio h3{
+display: none;
+margin-top: 100px;
+font-size:3vw;
+}
+
+.portfolio span{
+font-weight: 900;
+color: #FFAFE3;
+}
+
+.slider1, .slider2, .slider3{
+    margin: 20px;
+    width: 200px; 
+  margin-bottom: 20px;
+  margin: auto;
+}
+
+.portfolio footer{
+    margin-top: 700px;
+    position: absolute;
+}
+
+.portfolio p{
+    font-family: 'Montserrat';
+    font-size: 1em; 
+    margin-top: 20px;
+    margin-bottom: 5px;
+   
+} 
+
+
+
+/* media queries */
+@media screen and (max-width: 1300px){
+.foto-header{
+    display: none;
+}
+
+
+}
+
+@media screen and (max-width: 1100px){
+
+   
+    .thumbnails{
+     width: 800px;  
+        }
+
+    .video-container, #videoPlayer, .video-center{
+        width: 800px;
+        }
+
+ 
+}
+
+
+@media screen and (max-width: 850px){
+
+.thumbnails{
+        width: 500px;  
+     }
+
+.overlay-desc p{ 
+   display: none;
+}
+.video-container, #videoPlayer, .video-center{
+    width: 550px;
+    margin-top: -90px;
+    }
+
+nav{
+    font-size: 0.9em;
+   }
+li{
+    margin-left: 50px;
+   }
+.tekst{
+    width: 500px;
+    font-size: 0.8em;
+    }
+    
+footer{
+font-size: 0.7em;
+
+}
+.tekst p{
+    font-size: 1.5em;
+    }
+
+#spoelTerug, #speelAf{
+width: 30px;
+height: 30px;
+top: 25%;
+}
+}
+
+@media screen and (max-width: 600px){
+nav{
+ font-size: 0.8em;
+ }
+li{
+    margin-left: 40px;
+}
+      
+.video-container, #videoPlayer, .video-center{
+        width: 400px;
+        margin-top: -90px;
+        }
+.tekst{
+       width: 400px;
+        font-size: 0.7em;
+            
+    }
+
+
+}
+@media screen and (max-width: 380px){
+    nav{
+        font-size: 0.6em;
+        }
+.tekst{
+width: 300px;
+font-size: 0.6em;
+                 
+         }
+.video-container, #videoPlayer, .video-center{
+    width: 300px;
+    margin-top: -50px;
+            }
+
+  .thumbnails{
+width: 300px;  
+margin-left: 0;   }  
+
+footer h3 {
+font-size: 1.3em;
+padding-top: 50px;
+}
+footer{
+margin-top: 100px;
+padding-bottom: 50px;
+}
+.knop{
+height: 50px;
+width: 225px;
+    }
+    
+.knop p{
+font-size: 1.2em;
+line-height: 50px;
+ 
+    }
+  }
+    
+
+
+@media screen and (max-width: 768px){
+.portfolio h3{
+display: block;
+  
+    
+}
+.portfolio footer{
+margin-top: 200px;
+}
+
+.slider1, .slider2, .slider3, #defaultCanvas0{
+display: none;
+
+}
+main p{
+display: none;
+}
+}
+

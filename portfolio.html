@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/jquery-ui.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.6/p5.js"></script>
+    <script src="js/p5.js"></script>
+    <script src="js/sketch.js"></script>
+    <script src="js/jquery-3.4.1.js"></script>
+    <script src="js/jquery-ui.js"></script>
+   
+
+    <title>MMT4 portfolio pagina</title>
+</head>
+
+<body class="portfolio">
+<header>
+
+<nav>
+      <ul>
+        <li><a href="#">CONTACT</a> </li>
+        <li><a href="portfolio.html">PORTFOLIO</a> </li>
+        <li><a href="#">ABOUT ME</a> </li>
+        <li><a href="index.html">HOME</a> </li>
+    </ul>
+</nav>
+
+
+   <div class="slide">
+   <div class="load"></div>
+    <div class="content">  
+   <div class="tekst">
+   
+        <p>In this project I will show you my interactive p5 sketch.
+             With the sliders you can manipulate my sketch.
+            <span>Try it out!</span>  </p>
+            <div class="clear"></div>
+</div>
+</div>
+   </div>
+</header>
+<main>
+
+
+ <p>Speed</p>   
+<div class="slider1"> </div>
+<p>Color</p>  
+<div class="slider2"> </div>
+<p>Background</p>  
+<div class="slider3"> </div>
+
+<h3>Cannot display interactive sketch on devices smaller than 768 pixels.</h3>
+
+
+</main>
+
+<footer>
+
+  <div class="center">
+      <input type="button" id="contact" value="CONTACT">
+      <input type="button" id="back" value="<-BACK"></div>
+  <div id="content">
+          <form id="form">
+                  <label for="name">Naam</label>
+                  <input type="text" id="name" name="name" placeholder="Je naam..">
+              
+                  <label for="subject">Onderwerp</label>
+                  <input type="text" id="subject" name="subject" placeholder="Je onderwerp..">
+              
+                  <label for="message">Bericht</label>
+                  <textarea id="message" name="message" placeholder="Schrijf iets.." style="height:170px"></textarea>
+              
+                  <input type="submit"  id='submit' value="Submit">
+              </form>  
+  </div>
+      </footer>
+ </body>
+
+  
+<script src="js/script.js"></script>
+
+
+</html>
+
